@@ -1,0 +1,30 @@
+{
+  "name": "inventory-management-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.1.6",
+    "@strapi/plugin-users-permissions": "4.1.6",
+    "@strapi/plugin-i18n": "4.1.6",
+    "better-sqlite3": "^7.5.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a5d5f999-d19d-4d58-9fbf-9bd9470ecf36"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
