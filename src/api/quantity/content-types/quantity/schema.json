@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quantities",
+  "info": {
+    "singularName": "quantity",
+    "pluralName": "quantities",
+    "displayName": "quantity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "qty": {
+      "type": "integer"
+    }
+  }
+}
