@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "item"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "stockevent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::stockevent.stockevent",
+      "inversedBy": "item"
+    }
+  }
+}
