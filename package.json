@@ -10,10 +10,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.1.9",
-    "@strapi/plugin-i18n": "4.1.9",
-    "@strapi/plugin-users-permissions": "4.1.9",
-    "@strapi/strapi": "4.1.9",
+    "@strapi/plugin-graphql": "^4.1.11",
+    "@strapi/plugin-i18n": "^4.1.11",
+    "@strapi/plugin-users-permissions": "^4.1.11",
+    "@strapi/strapi": "^4.1.11",
     "better-sqlite3": "^7.5.1"
   },
   "author": {
@@ -26,5 +26,8 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "yarn-upgrade-all": "^0.7.1"
+  }
 }
