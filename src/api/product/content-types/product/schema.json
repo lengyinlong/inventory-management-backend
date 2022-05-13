@@ -12,11 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "product": {
+    "name": {
       "type": "string"
     },
-    "qty": {
-      "type": "integer"
+    "events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event",
+      "mappedBy": "product"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "item",
     "pluralName": "items",
-    "displayName": "item"
+    "displayName": "item",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,11 +16,11 @@
       "type": "string",
       "required": true
     },
-    "stockevent": {
+    "stockevents": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::stockevent.stockevent",
-      "inversedBy": "item"
+      "mappedBy": "item"
     }
   }
 }

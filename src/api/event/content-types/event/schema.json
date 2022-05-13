@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "stockevents",
+  "collectionName": "events",
   "info": {
-    "singularName": "stockevent",
-    "pluralName": "stockevents",
-    "displayName": "stockevent",
-    "description": ""
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event"
   },
   "options": {
     "draftAndPublish": false
@@ -20,14 +19,13 @@
       ]
     },
     "qty": {
-      "type": "integer",
-      "required": true
+      "type": "integer"
     },
-    "item": {
+    "product": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::item.item",
-      "inversedBy": "stockevents"
+      "target": "api::product.product",
+      "inversedBy": "events"
     }
   }
 }
